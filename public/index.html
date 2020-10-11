@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- Name: Cristian Alin Preda - Date/Location: 12.10.2020 / Copenhagen -->
+<!-- Contact: +4591701583 - cristian.alin.preda@gmail.com -->
+
+<!-- This webpage is a demo prototype requested by Healper.dk for the purpose of evaluating my candidacy for a front end developer internship position. -->
+
+<html lang="en">
+
+  <!-- HEAD -->
+  <head>
+    <!-- PAGE TITLE -->
+    <title>Personal Dashboard</title>
+    <!-- SHORTCUT FAVICON ICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <!-- META DATA -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" /> <!-- or shrink to fit = no? -->
+    <meta name="theme-color"  content="#000000" />
+    <!-- Bootstrap CSS Framework -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- OWN CSS Files -->
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="./Overview.css">
+    <link rel="stylesheet" type="text/css" href="./JqChart.css">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <!-- HEAD -->
+
+  <!-- HEADER -->
+  <header>
+    <!-- NAVBAR -->
+      <div id="NAVBAR"></div>
+    <!-- NAVBAR -->
+      <br><br>
+      <br><br>
+  </header>
+  <!-- HEADER -->
+
+
+  <!-- BODY -->
+  <body style="overflow-x: hidden;">
+
+    <!-- WARNING -->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- WARNING -->
+
+    <!-- INTRO SECTION-->
+    <div id="INTRO"></div>
+    <!-- INTRO SECTION-->
+
+    <!-- ADMIN OVERVIEW -->
+    <div id="OVERVIEW"></div>
+    <!-- ADMIN OVERVIEW -->
+
+    <br>
+
+    <!-- DASHBOARD SECTION-->
+    <div class="container-fluid my-5 py-5 shadow p-0 mb-5 bg-white rounded">
+        <section>
+          <div class="card">
+            <div class="card-body">
+              <h5 id='dashboardTitle' class="text-center font-weight-bold mb-4">Overview of Earnings</h5>
+              <hr>
+
+              <!--Grid row-->
+              <div class="row">
+
+                <!--CHART COLUMN -->
+                <div class="col-md-7 mb-4">
+                  <div id="DOUGHNUT"></div> 
+                </div>
+                <!--CHART COLUMN-->
+
+                <!--TABLE COLUMN -->
+                <div id="TABLE"></div>
+                <!--TABLE COLUMN-->
+
+              </div>
+              <!--Grid row-->
+
+            </div>
+            <!--Grid row-->
+          </div>
+        </section>
+    </div>
+    <!-- DASHBOARD SECTION-->
+
+    <!-- PATIENT OVERVIEW SECTION -->
+      <!-- Some hover animation -->
+      <style>
+        .zoom {
+          transition: transform .2s; /* Animation */
+        }
+        .zoom:hover {
+          transform: scale(1.1); /* (150% zoom)*/
+        }
+      </style>
+      <!-- Some hover animation -->
+    <div id="PATIENTS"></div>
+    <!-- PATIENT OVERVIEW SECTION -->
+
+    <br><br>
+
+    <!-- INSPIRATIONAL SECTION -->
+    <div id="INSPIRATIONAL"></div>
+    <!-- INSPIRATIONAL SECTION-->
+    <br><br>
+
+    <!-- THE FOOTER SECTION-->
+    <div id="FOOTER"></div>
+    <!-- THE FOOTER SECTION -->
+
+    <!-- Importing Bootsrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- Importing own JavaScript -->
+    <script type="text/javascript" src='./index.js'></script>
+  </body>
+  <!-- BODY -->
+
+</html>
+
+
